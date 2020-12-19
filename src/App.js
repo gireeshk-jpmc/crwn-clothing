@@ -25,8 +25,6 @@ class App extends React.Component {
             currentUser: snapshot.id,
             ...snapshot.data()
           });
-          console.log(this.state);
-
         });
       }
       else{
